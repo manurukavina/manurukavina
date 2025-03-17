@@ -47,7 +47,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      
+      announcementBar: {
+        id: 'ga-technology',
+        content: 'This website started using GA technology, <a href="/ga-technology">how does that affect your privacy</a>?', // The message (can include HTML)
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: true,
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Manu Rukavina /',
