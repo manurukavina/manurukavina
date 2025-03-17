@@ -32,6 +32,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub
+          github_token: ${{ secrets.TOKEN }} # Automatically provided by GitHub
           publish_dir: ./build # Directory containing the built site
           cname: manurukavina.com # Your custom domain
