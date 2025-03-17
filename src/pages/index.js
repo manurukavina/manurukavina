@@ -17,7 +17,7 @@ function HomepageHeader() {
         </Heading>
 
         <p className="hero__subtitle">
-          {siteConfig.tagline} {/* Pulls from your config, e.g., "A simple blog..." */}
+          {siteConfig.tagline}
         </p>
         <div className={styles.buttons}>
           <Link
@@ -35,7 +35,6 @@ function LinksSection() {
   return (
     <section className="container padding--lg">
       <div className="row">
-        {/* Left Column - Links */}
         <div className="col col--6" style={{ maxWidth: '20em', display: 'flex', flexDirection: 'column', margin: 'auto', marginBottom: '3em' }}>
           <Heading as="h2" className="text--center">
             Links
