@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmanurukavina=self.webpackChunkmanurukavina||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Audio Wave Processing in Assembly","permalink":"/blog/asm-audio","unlisted":false,"date":"2025-03-17T00:00:00.000Z"}]}')}}]);
