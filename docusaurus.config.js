@@ -22,6 +22,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: 'G-CNJMYXVP61',
+        },
         docs: false,
         blog: {
           showReadingTime: true,
@@ -44,6 +47,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Manu Rukavina /',
