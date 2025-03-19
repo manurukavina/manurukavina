@@ -81,6 +81,9 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
+      metadata: [
+        { name: 'fediverse:creator', content: '@manurukavina@mastodon.social' },
+      ],
     }),
 };
 
