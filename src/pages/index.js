@@ -46,6 +46,13 @@ function LinksSection() {
               </a>
             </div>
             <div className="col col--12 margin-vert--md">
+              <a href="https://mastodon.social/@manurukavina" className="button button--primary button--block">
+                Mastodon
+              </a>
+              <a rel="me" href="https://mastodon.social/@manurukavina" style={{display: 'none'}}>Mastodon</a>
+
+            </div>
+            <div className="col col--12 margin-vert--md">
               <a href="https://youtube.com/@ManuRukavina" className="button button--primary button--block">
                 Youtube
               </a>
