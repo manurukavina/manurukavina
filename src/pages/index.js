@@ -72,11 +72,6 @@ function LinksSection() {
                 ManuRukavina@gmail.com
               </a>
             </div>
-            <div className="col col--12 margin-vert--md">
-              <a href="/what-happened-with-e-registrar" className="button button--primary button--block">
-                What happened with e-Registrar?
-              </a>
-            </div>
           </div>
         </div>
 
