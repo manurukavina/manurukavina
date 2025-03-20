@@ -1,6 +1,6 @@
 ---
+slug: java-is-boring
 title: "Java is Boring, That's the Best Thing About It"
-description: "Why Java's predictability and stability make it the best choice for enterprise development."
 ---
 
 Java often gets a bad rap for being "boring." It lacks the flashy syntax of modern languages, doesn't have the hype of the latest frameworks, and rarely makes headlines. But that predictability is exactly what makes it one of the best choices for enterprise development.
