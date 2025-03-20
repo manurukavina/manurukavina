@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Manu Rukavina',
-  tagline: 'A software developer powered by coffee.',
+  tagline: 'A Java developer powered by coffee.',
 
   url: 'https://manurukavina.com',
   baseUrl: '/',
