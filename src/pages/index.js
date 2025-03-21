@@ -129,8 +129,6 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <LinksSection />
-        <hr className={styles.sectionDivider} />
-        <MastodonPosts />
       </main>
     </Layout>
   );

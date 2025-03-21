@@ -55,7 +55,7 @@ function MastodonPosts() {
     return (
         <section className="container padding--lg">
             <Heading as="h2" className="text--center margin-bottom--lg">
-                Latest Mastodon Posts
+                @manurukavina@mastodon.social
             </Heading>
             {loading ? (
                 <div className={clsx('text--center', styles.loading)}>
@@ -68,24 +68,9 @@ function MastodonPosts() {
             ) : posts.length === 0 ? (
                 <p className="text--center">No posts available</p>
             ) : (
-                <div className="row">
+                <div style={{display: 'flex', flexDirection: 'column'}}>
                     {posts.map((post) => (
-                        <div key={post.id} className="col col--12 col--md-6 col--lg-4 margin-bottom--lg" style={{margin: '1em'}}>
-                            <div className={clsx('card', styles.card)}>
-                                <div className={clsx('card__header', styles.cardHeader)}>
-                                    <small className={styles.cardDate}>
-                                        <b>@manurukavina</b>
-                                        <br></br>
-                                        {new Date(post.created_at).toLocaleDateString()}
-                                    </small>
-                                </div>
-                                <div className="card__body">
-                                    <div
-                                        className={styles.cardContent}
-                                        dangerouslySetInnerHTML={{ __html: post.content }}
-                                    />
-                                </div>
-                            </div>
+                        <div key={post.id} dangerouslySetInnerHTML={{ __html: post.content }} style={{marginInline:'auto', marginBlockEnd: '.5em', backgroundColor: 'var(--ifm-background-surface-color)', padding: '1em', width:'30em'}}>
                         </div>
                     ))}
                 </div>
