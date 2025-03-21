@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import MastodonPosts from '../components/MastodonPosts';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -128,6 +129,8 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <LinksSection />
+        <hr className={styles.sectionDivider} />
+        <MastodonPosts />
       </main>
     </Layout>
   );
